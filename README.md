@@ -1,9 +1,4 @@
 # LEETCODE-TREES-2641
-The code you've shared implements a solution to a problem where the goal is to replace each node's value in a binary tree with the sum of its cousins' values on the same level. Here's a breakdown of how this solution works:
-
-### Key Idea
-The solution leverages Depth First Search (DFS) to first calculate the sum of all node values at each level of the tree and then replaces each node's value with the sum of its cousins' values. A **cousin** in a binary tree refers to nodes at the same depth but with different parents.
-
 ### Steps of the Algorithm
 
 1. **DFS to Compute Level Sums:**
